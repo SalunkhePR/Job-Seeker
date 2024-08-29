@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/Kudosware').then(() => {
+mongoose.connect('mongodb+srv://Prathamesh:9XG6XxJfcsriIVXk@cluster0.hsmxt.mongodb.net/Job-seeker').then(() => {
   console.log('Database Connected!!')
 });
 
